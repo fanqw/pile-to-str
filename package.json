@@ -1,6 +1,6 @@
 {
   "name": "pile-to-str",
-  "version": "1.2.5",
+  "version": "1.2.8",
   "description": "将交通行业的桩号（数字）转换为标准格式的字符串",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,9 @@
     "veily"
   ],
   "author": "fanqw",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanqw/pile-to-str"
+  }
 }
