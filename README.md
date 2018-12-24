@@ -15,7 +15,10 @@ $ npm install pile-to-str --save
 ```js
 import pileToStr from 'pile-to-str'
 
-// 传入参数必须为Number类型
-pileToStr(12.23) // => K12+230
+const pile = 12.23
 
+// 传入参数必须为Number类型，建议使用该方法转换时，先判断类型
+if (typeof(pile) === 'number') {
+    pileToStr(pile) // => K12+230
+}
 ```
