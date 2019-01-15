@@ -1,6 +1,6 @@
 {
   "name": "pile-to-str",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "将交通行业的桩号（数字）转换为标准格式的字符串",
   "main": "index.js",
   "scripts": {
